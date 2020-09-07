@@ -1,7 +1,9 @@
 @import url('https://fonts.googleapis.com/css?family=Roboto:100,200,300,400,500,600,700|Exo:100,200,300,400,500,600,700');
 
 /*-------colours*/
-
+body{
+    background-color: teal;
+}
 
 /*-----index/home page*/
 header{
@@ -38,8 +40,37 @@ margin-bottom: 40px;
     margin-bottom: 40px;
 }
 /*----Quiz*/
+.answer-container{
+   display: flex; 
+   width: 100%;
+   border-radius: 5px;
+}
 
+.answer-prefix{
+color: white;
+}
 
+.answer-text{
+width: 100%;
+padding: 3rem;
+}
+
+#display{
+    display:flex;
+    justify-content: space-evenly;
+}
+
+.display-item{
+
+}
+
+#progress-text{
+position: absolute;
+}
+
+.display-prefix{
+
+}
 /*----highscore*/
 
 
