@@ -6,7 +6,7 @@ let progressbarfull= querySelector('#Progress_bar_full');
 
 let currentQuestion= {}
 let acceptinganswers= true
-let score = 0 
+let points = 0 
 let questioncounter= 0
 let avalaiblequestions= []
 
@@ -64,14 +64,14 @@ let Max_Questions=3
 
 startQuiz= () => {
     questioncounter= 0
-    score= 0
+    points= 0
   avalaiblequestions=[...questions]
   getNewQuestion()
 }
 
 getNewQuestion = () => {
     if(availablequestions.length === 0 || questionCounter > Max_Questions) {
-        localStorage.setItem('RecentScore', score)
+        localStorage.setItem('RecentScore', points)
 
         return window.location.assign('Last.html')
     }
@@ -103,7 +103,7 @@ answers.forEach(choice => {
         let apply = selectedRight_Answer == currentQuestion.Right_answer ? 'correct' : 'incorrect'
 
     if(apply === 'correct') {
-            incrementScore(SCORE_POINTS)
+            incrementpoints(SCORE_POINTS)
         }
 
         selectedChoice.parentElement.classList.add(apply)
@@ -115,9 +115,9 @@ answers.forEach(choice => {
     })
     
 })
-incerementScore=num => {
-    score += num
-    scoreText.innerText = score
+incerementpoints=num => {
+    points += num
+    pointsText.innerText = score
 }
 
 startQuiz()
