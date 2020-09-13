@@ -95,10 +95,69 @@ let questions = [
         answer: 1,
     },
 
+   {
+        question: "Where did Kawhi Lenorad with his 2nd Championship ",
+        choice1: "Los Angles Clippers",
+        choice2: "Toronto Raptors",
+        choice3: "San Antionio Spurs",
+        choice4: "Indiana Pacers",
+        answer: 2,
+    },
+     {
+        question: "How many Nba organisations are located in the state of Texas?",
+        choice1: "5",
+        choice2: "6",
+        choice3: "7",
+        choice4: "3",
+        answer: 4,
+    },  
+
+       {
+        question: "Which player was given the nickname 'Agent Zero'?",
+        choice1: "Gilbert Areans",
+        choice2: "Reggie Miller",
+        choice3: "Russell Westbrook",
+        choice4: "Carmelo Anthony",
+        answer: 1,
+    },
+
+       {
+        question: "Which team sent four players to the 2015 NBA All-Star Game?",
+        choice1: "Boston Celtics",
+        choice2: "Miami Heat",
+        choice3: "Alanta Hawks",
+        choice4: "Golden State Warriors",
+        answer: 3,
+    },
+       {
+        question: "The brothers Pau and Maec Gasol come from which contry",
+        choice1: "USA",
+        choice2: "Spain",
+        choice3: "Portugal ",
+        choice4: "Uk",
+        answer: 2,
+    },
+      {
+        question: "Which country was Kyrie Irving born in?",
+        choice1: "USA",
+        choice2: "Canada",
+        choice3: "Austrilla",
+        choice4: "UK",
+        answer: 3,
+    }, 
+   {
+        question: "The brothers Pau and Maec Gasol come from which contry",
+        choice1: "USA",
+        choice2: "Spain",
+        choice3: "Portugal ",
+        choice4: "Uk",
+        answer: 2,
+    },
+
 ]
 
 const SCORE_POINTS = 1
-const MAX_QUESTIONS = 20
+const MAX_QUESTIONS = 10
 
 startGame = () => {
     questionCounter = 0
@@ -111,7 +170,7 @@ getNewQuestion = () => {
     if(availableQuestions.length === 0 || questionCounter > MAX_QUESTIONS) {
         localStorage.setItem('mostRecentScore', score)
 
-        return window.location.assign('/Last.html')
+        return window.location.assign('Last.html')
     }
 
     questionCounter++
