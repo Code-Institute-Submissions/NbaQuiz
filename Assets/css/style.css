@@ -84,7 +84,11 @@ margin-bottom: 40px;
 }
 
 .hud-main-text {
-    text-align: center;
+    text-align: right;
+}
+.score.container{
+    position:  absolute;
+    right: 400px;
 }
 
 #progressBar {
