@@ -34,6 +34,17 @@ margin-bottom: 40px;
 .Main-title i{
     padding-left:200px; 
 }
+.logo{
+background: url("../Images/NBA.jpg");
+background-position: center;
+background-repeat: no-repeat;
+background-size: cover;
+min-height: 200px;
+transition: all .2s ease-in-out;
+-moz-transition:all .5s ease-in-out;
+-webkit-transition: all .5s ease-in-out;    
+
+}
 
 .Ready{
     font-family: "Exo",'sans-serif';
@@ -48,13 +59,20 @@ margin-bottom: 40px;
 }
 
 .choice-container {
-    display: flex;
+    display: grid; 
+    grid-template-columns: repeat(2, auto);
     margin-bottom: 0.8rem;
-    width: 100%;
+    width: 800px;
     border-radius: 4px;
     background: rgb(18, 93, 255);
     font-size: 3rem;
     min-width: 80rem;
+}
+
+.choice-container p {
+    display: grid;
+
+   
 }
 
 .choice-container:hover {
@@ -63,13 +81,11 @@ margin-bottom: 40px;
     transform: scale(1.02);
     transform: transform 100ms;
 }
-.choice-prefix {
-    padding: 2rem 2.5rem;
-    color: white;
-}
 
 .choice-text {
-    padding: 2rem;
+    display: flex;
+text-align: center;
+    padding: 0.2rem;
     width: 100%;
 }
 
