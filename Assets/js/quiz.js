@@ -13,10 +13,10 @@ let availableQuestions = []
 let questions = [
     {
         question: 'Who won the championship 2016?',
-        choice1: 'spurs ',
-        choice2: 'cavs',
-        choice3: 'pistons',
-        choice4: 'lakers',
+        choice1: 'San Antinio Spurs ',
+        choice2: 'Cleveland Cavaliers',
+        choice3: 'Detroit Pistions',
+        choice4: 'Los Angles akers',
         answer: 2,
     },
     {
@@ -54,7 +54,7 @@ let questions = [
         answer: 2,
     },
    {
-        question: "What team did Anthony Davis play for being traded to Los Angles Lakers?",
+        question: "What team did Anthony Davis play for before being traded to Los Angles Lakers?",
         choice1: "New Orleanes Hornets",
         choice2: "Houston Rockets",
         choice3: "New Orleanes Pelicans",
@@ -80,7 +80,7 @@ let questions = [
    {
         question: "What was the 1992 olympic basketball team called?",
         choice1: "The Americans",
-        choice2: "The dream team",
+        choice2: "The Dream Team",
         choice3: "Showtime",
         choice4: "Lob City",
         answer: 2,
@@ -141,18 +141,11 @@ let questions = [
         question: "Which country was Kyrie Irving born in?",
         choice1: "USA",
         choice2: "Canada",
-        choice3: "Austrilla",
+        choice3: "Australia",
         choice4: "UK",
         answer: 3,
     }, 
-   {
-        question: "The brothers Pau and Maec Gasol come from which contry",
-        choice1: "USA",
-        choice2: "Spain",
-        choice3: "Portugal ",
-        choice4: "Uk",
-        answer: 2,
-    },
+
      {      
          question: "Which player has the most championship rings",
         choice1: "Bill Russell",
@@ -195,7 +188,7 @@ let questions = [
         answer: 2,
     },
     {      
-         question: "How many teams qualify through tho the playoffs?",
+         question: "How many teams qualify through to the playoffs?",
         choice1: "8",
         choice2: "4",
         choice3: " 24",
@@ -203,7 +196,7 @@ let questions = [
         answer: 4,
     },
         {      
-         question: "17.	How many confrences are in the NBA?",
+         question: "How many confrences are in the NBA?",
         choice1: "2",
         choice2: "4",
         choice3: "8",
@@ -213,7 +206,7 @@ let questions = [
 
        {      
          question: "Who was drafted the number 1 rookie of the NBA draft in 2019?",
-        choice1: "Ja morant",
+        choice1: "Ja Morant",
         choice2: "Brandon Clarke",
         choice3: "Zion Willamson",
         choice4: "Lamelo Ball",
@@ -245,15 +238,7 @@ let questions = [
         choice4: "Kobe Bryant",
         answer: 2,
     },
-       {      
-                  
-         question: "Who has scored the most consecutive 20+ points in a row?",
-        choice1: "James Hardern",
-        choice2: "Kevin Durant",
-        choice3: "Allen Iverson",
-        choice4: "Kobe Bryant",
-        answer: 2,
-    }, 
+        
     {
         question: "Who has scored the most 3 point shots in a season?",
         choice1: "James Hardern",
@@ -276,7 +261,7 @@ let questions = [
         choice2: "Russell Westbrook",
         choice3: "Luka Doncic",
         choice4: "Klay Thompson",
-        answer: 1,
+        answer: 4,
     },
    {
         question: "What was the most points scored in a game, which  was done by WIlt chamberlin?",
@@ -287,7 +272,7 @@ let questions = [
         answer: 3,
     },
    {
-        question: "The famous game of Kobe vs toroto how many points did he score",
+        question: "The famous game of Kobe vs Toronto how many points did he score",
         choice1: "81",
         choice2: "92",
         choice3: "48",
@@ -375,7 +360,7 @@ let questions = [
     },
 
        {
-        question: "Who has recorded the most points un their NBA career?",
+        question: "Who has recorded the most points in their NBA career?",
         choice1: "Kobe Bryant",
         choice2: "Kareem Abdul-Jabbar",
         choice3: "Karl Malone",
@@ -451,7 +436,7 @@ let questions = [
 
            {
      
-        question: "Which was the furthuest tracy mcgrady ever made  in the playoffs?",
+        question: "Which was the furthuest Tracy Mcgrady ever made  in the playoffs?",
         choice1: "First Round",
         choice2: "Confroence FInals ",
         choice3: "NBA Finals",
@@ -486,7 +471,7 @@ let questions = [
 
 ] 
 
-const SCORE_POINTS = 100
+const SCORE_POINTS = 1
 const MAX_QUESTIONS = 10
 
 startGame = () => {
