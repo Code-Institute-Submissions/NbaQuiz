@@ -9,13 +9,15 @@
     <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.13.1/css/all.css" integrity="sha384-xxzQGERXS00kBmZW/6qxqJPyxW3UR0BPsL4c8ILaIWXva5kFi7TxkIIaMiKtqV1Q" crossorigin="anonymous">
 </head>
 <body>
-<div class="container">
+<div class="end-container">
     <div id="end">
+    <div class="congrats-logo"> </div>
         <h1 id="finalScore">0</h1>
             <form class="score-form-container">
             <h3 id="save-details">Enter details to save score!</h3>
-          <input type="text" name="name" id="username" placeholder="Enter your name">
-            <button class="btn" id="saveScorebtn" type="submit" onclick="saveHighScore(event)"disabled>Save score<i class="far fa-save"></i></button>
+            <label for="name">Enter name:</label>
+          <input type="text" name="name" id="username" placeholder="Enter your name"> 
+            <button class="btn" id="saveScorebtn" type="submit" onclick="saveHighScore(event)">Save score<i class="far fa-save"></i></button>
             </form>
         <a href="Quiz.html" class="btn"> Play again <i class="fas fa-play"></i></a>
         <a href="index.html" class="btn">Return to main menu <i class="fas fa-home"></i></a>

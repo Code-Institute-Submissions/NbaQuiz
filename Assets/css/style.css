@@ -69,7 +69,7 @@ font-size: 40px;
     display: grid; 
     margin-bottom: 0.8rem;
     border-radius: 4px;
-    background: rgb(18, 93, 255);
+    background: rgb(6, 247, 255);
     font-size: 3rem;
 
 }
@@ -133,12 +133,27 @@ text-align: center;
 .selected{
     background: linear-gradient(32deg, rgb(194, 11, 11) 0%, rgb(233, 5, 5) 100%);
 }
-
+footer{
+        background-color: #ebebeb;
+    color: #fafafa;
+    min-height: 120px;
+    margin: 0;
+}
 #footer-details{
     padding: 20px;
+   margin: auto;
 }
 
+#footer-details span{
+text-align: center;
+color: black;
+}
 /*----highscore*/
+.high-score-container{
+    font-size: 100px;
+    font-family: "Exo",sans-serif;
+}
+
 #username{
    width: 60%;
   padding: 12px 20px;
@@ -151,4 +166,19 @@ color: black
 
 }
 /*----last*/
-
+.end-container{
+    font-size: 30px;
+}
+.congrats-logo{
+    background: url("../Images/basketcon.jpg");
+background-position: center;
+background-repeat: no-repeat;
+background-size: cover;
+min-height: 200px;
+transition: all .2s ease-in-out;
+-moz-transition:all .5s ease-in-out;
+-webkit-transition: all .5s ease-in-out;    
+width: 100px;
+margin: auto;
+float: right;
+}
