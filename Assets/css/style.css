@@ -2,7 +2,7 @@
 
 /*-------colours*/
 body{
-    background-color: rgb(206, 226, 226);
+    background-color: rgb(255, 255, 255);
 }
 
 /*-----index/home page*/
@@ -67,13 +67,11 @@ font-size: 40px;
 
 .choice-container {
     display: grid; 
-    grid-template-columns: repeat(2, auto);
     margin-bottom: 0.8rem;
-    width: 800px;
     border-radius: 4px;
     background: rgb(18, 93, 255);
     font-size: 3rem;
-    min-width: 80rem;
+
 }
 
 .choice-container p {
@@ -134,6 +132,10 @@ text-align: center;
 }
 .selected{
     background: linear-gradient(32deg, rgb(194, 11, 11) 0%, rgb(233, 5, 5) 100%);
+}
+
+#footer-details{
+    padding: 20px;
 }
 
 /*----highscore*/
