@@ -41,6 +41,7 @@ The page is a display of the highest score done on the quiz.
 ### Technologies used:
 #### HTML5
 HTML is used for the main content of the page such as text and main structure of the project.
+HTML is used to create the structure of the preseantaion of the quiz for example the placement of the answers and the buttons used for navigating.
 #### CSS
 CSS is used to create the style of the web pages and to follow the designs of the wireframes.
 #### Bootstrap 4
@@ -50,9 +51,10 @@ The project uses Bootstrap for form and Modal
 1.Font awsome
 Font awsome is used to provide icons for some titles in the project
 #### JavaScript
-The project is used to make sure the modal is used in the right situation
-Testing
-Testing UCD Portfolio
+The project uses javascript to give the user the presentation of the questions and the answers. Which are randomly slected with the use of an array.
+The project uses  javascript to locally store the recent score ofthe users score of the quiz.
+The project  uses javascript to store and sort the highest scores.
+
 
 ## I/o tests
 
@@ -61,68 +63,46 @@ All pages will format to the device which the site is being presented on.
 (i) Try to shrink the browser window to verify the page responds to fit within a page
 (ii) Try to view the web page on different devices to verify it the web page can be viewed and presentable pm different devices.
 
-### Navbar
+### Home page
 
-1. (i) Try to highlight the icons on the emblem to verify to the user where the user wants to navigate to
+1. (i) Try to click on the start button to start the quiz as expected.
 
-1. (ii) Try to click on the icons to verify that when clicking on the icon changes to blue to show the icon has been clicked.
+1. (ii) Try to click on high score button to be navigated to high score page.
 
-1. (iii) Try to click on an icon to verify that the navbar will take the user to the page requested.
 
-### Footer
-(i)The footer remains at the bottom of the page at all times
+### Quiz
+(i)The progression bar says the correct number of questions at all time.
 
-(ii) Try to highlight over the social media icons at the bottom right of the page to verify that the icons are Responsive
+(ii) The progression bar fills in as questions are being answered.
 
-(iii)Try to click on the icons to be redirected to the pages the icons indicate to verify that the icons open a new tab instead of replacing the current page.
+(iii)Try to click on an answer button to and the page will indicate if the answer is correct or incorrect.
 
-### Project page
+(iv) Try to click on the correct answer to see the score counter to increment.
+
+(v) Try to click on the return to main menu button on the footer to return to the home page.
+
+### Last/End page
 (i) Try to shrink the browser to verify if the image does not overlap the text.
+(ii) Try to enter text in the text field.
+(iii) Try to click the save score button to save the score into local storage.
 
-(ii) Try to click on the link to verify the link will take to a new tab to display a project.
+### High Scores page
 
-### Contact form
+(I) Try to see the high score displayed and sorted correctly.
 
-(I) Try to submit button with no text in the all fields to show the validation in the name field.
-
-(ii) Try to click the submit button with only the name field with data to verify the email field has validation.
-
-(iii) Try to enter an invalid email then click the button to verify the form will let the user know that the field needs a @ to verify the email.
-
-(iv) Try to leave the message box empty and click the button to verify a message is required for when clicking the submit button
-
-(v) Try to have the form to have valid information and click the button to verify a modal will appear to show the user that the message has been sent
-
-(vi) When closing the modal the page shall refresh.
-## Deployment
-This project is going to deploy on GitHub pages.
-How to be deployed on GitHub pages
-1. Click on the settings tab on GitHub
-1. Scroll down to the GitHub page section and click on source
-1. On the source dropdown select master branch to be deployed.
-
-### Clone or Download
-#### clone
-1. On GitHub there is a button clone and download button to get the dropdown
-1. Click on the open in desktop
-1. This allows the project to be viewed on the git server but outside the browser.
-#### download
-1. Following same steps click on download zip
-1. Extract files into any location
-1. Click on the index.html
-1. The project has been deployed locally.
+(ii) Try to click the  return main menu button to return to home page.
 
 ## Credits
 
 ## Content
 The content of this project is made by personal information by Albert Sam
-The content/code of the modal was provided bootstrap and the script was provided by my mentor dick_Ve
+The content of this project can be found on NBA.com for all the information on where the questions come from.
 ## Media
 The asset images :
-The image on index page is from personal media
+The image on the main page is the NBA Logo found on google images.
 
-The images on the work timeline page all come from google images.
+The image on the Last.Html was found on Google images.
 ## Acknowledgments
-This site was inspired by the project UCD in the code institute program for the concept of using Bootstrap.
-This site was inspired by the Love_Running in the Code institute program.
+This site was inspired by a few youtube videos made by Web simple dev
+This site was inspired by youtube videos made by Awais Mirza.
 
