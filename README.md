@@ -29,6 +29,8 @@ The quiz is ran by a script which has 4 answers attached to it, th user can clic
 The quiz has 50 questions and will appear at random order so after each try diffrent questions will appear.
 The quiz has score counter which keeps count of the user actions when clicking on the corrrect answers.
 The quiz will the store the score and display on the end page.
+The questions have been hard coding and future feature would be to get an API do gatehr the questions
+
 
 ### End Page
 The end page will display the users score 
@@ -80,6 +82,8 @@ All pages will format to the device which the site is being presented on.
 (iv) Try to click on the correct answer to see the score counter to increment.
 
 (v) Try to click on the return to main menu button on the footer to return to the home page.
+
+Testing the quiz a possiblity that the same question can appear twice was not found in testing but code does not take away the possiblity.
 
 ### Last/End page
 (i) Try to shrink the browser to verify if the image does not overlap the text.
