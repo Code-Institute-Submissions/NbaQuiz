@@ -91,7 +91,23 @@ All pages will format to the device which the site is being presented on.
 (I) Try to see the high score displayed and sorted correctly.
 
 (ii) Try to click the  return main menu button to return to home page.
+## Deployment
+This project is going to deploy on GitHub pages.
+How to be deployed on GitHub pages
+1. Click on the settings tab on GitHub
+1. Scroll down to the GitHub page section and click on source
+1. On the source dropdown select master branch to be deployed.
 
+### Clone or Download
+#### clone
+1. On GitHub there is a button clone and download button to get the dropdown
+1. Click on the open in desktop
+1. This allows the project to be viewed on the git server but outside the browser.
+#### download
+1. Following same steps click on download zip
+1. Extract files into any location
+1. Click on the index.html
+1. The project has been deployed locally.
 ## Credits
 
 ## Content
