@@ -13,7 +13,7 @@ finalScore.innerText = mostRecentScore
 username.addEventListener('keyup', () => {
     saveScoreBtn.disabled = !username.value
 })
-
+//Save High Score Event
 saveHighScore = e => {
     e.preventDefault()
 
@@ -29,7 +29,7 @@ saveHighScore = e => {
     })
 
     highScores.splice(10)
-
+//Highscore stored in local storage
     localStorage.setItem('highScores', JSON.stringify(highScores))
     window.location.assign('highscore.html')
 

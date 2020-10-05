@@ -9,7 +9,7 @@ let acceptingAnswers = true
 let score = 0
 let questionCounter = 0
 let availableQuestions = []
-
+// Questionnaire Array
 let questions = [
     {
         question: 'Who won the championship 2016?',
@@ -473,14 +473,16 @@ let questions = [
 
 const SCORE_POINTS = 1
 const MAX_QUESTIONS = 20
-
+// Start Game
 startGame = () => {
     questionCounter = 0
     score = 0
     availableQuestions = [...questions]
     getNewQuestion()
 }
-
+/**
+ * Gets next question
+ */
 getNewQuestion = () => {
     if(availableQuestions.length === 0 || questionCounter >= MAX_QUESTIONS) {
         localStorage.setItem('mostRecentScore', score)
@@ -491,11 +493,11 @@ getNewQuestion = () => {
     questionCounter++
     progressText.innerText = `Question ${questionCounter} of ${MAX_QUESTIONS}`
     progressBarFull.style.width = `${(questionCounter/MAX_QUESTIONS) * 100}%`
-    
+    //Get Question Randomly 
     const questionsIndex = Math.floor(Math.random() * availableQuestions.length)
     currentQuestion = availableQuestions[questionsIndex]
     question.innerText = currentQuestion.question
-
+    //choice options
     choices.forEach(choice => {
         const number = choice.dataset['number']
         choice.innerText = currentQuestion['choice' + number]
@@ -505,7 +507,7 @@ getNewQuestion = () => {
 
     acceptingAnswers = true
 }
-
+//Choice Event
 choices.forEach(choice => {
     choice.addEventListener('click', e => {
         if(!acceptingAnswers) return
