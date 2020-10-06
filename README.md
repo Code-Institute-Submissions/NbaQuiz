@@ -25,17 +25,17 @@ The buttons are in a lot of the pages which are used for navigating through the 
 The buttons will start the quiz script
 
 ### Quiz
-The quiz is ran by a script which has 4 answers attached to it, th user can click on an option and the quiz will indicate if the answer is correct or not?
+The quiz is ran by a script which has 4 answers attached to it, the user can click on an option and the quiz will indicate if the answer is correct or not?
 The quiz has 50 questions and will appear at random order so after each try diffrent questions will appear.
 The quiz has score counter which keeps count of the user actions when clicking on the corrrect answers.
 The quiz will the store the score and display on the end page.
-The questions have been hard coding and future feature would be to get an API do gatehr the questions
+The questions have been hard coding and future feature would be to get an API do gather the questions.
 
 
 ### End Page
-The end page will display the users score 
+The end page will display the users score. 
 This is where the user can enter the details and save them to local storage so it can be display on the high score page.
-The page also leads to the main menu
+The page also leads to the main menu.
 
 ### Highscores
 The page is a display of the highest score done on the quiz.
@@ -49,7 +49,6 @@ CSS is used to create the style of the web pages and to follow the designs of th
 #### Bootstrap 4
 The project uses Bootstrap grip to make information more presentable.
 The project uses Bootstrap so the web pages can be viewed on different devices.
-The project uses Bootstrap for form and Modal
 1.Font awsome
 Font awsome is used to provide icons for some titles in the project
 #### JavaScript
@@ -129,4 +128,5 @@ The image on the Last.Html was found on Google images.
 ## Acknowledgments
 This site was inspired by a few youtube videos made by Web simple dev
 This site was inspired by youtube videos made by Awais Mirza.
+The use of the Javascropt files 
 
