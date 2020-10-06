@@ -95,6 +95,10 @@ Testing the quiz a possiblity that the same question can appear twice was not fo
 (I) Try to see the high score displayed and sorted correctly.
 
 (ii) Try to click the  return main menu button to return to home page.
+
+## Validation
+Code was checked in HTML validator
+Code was checked in CSS validator 
 ## Deployment
 This project is going to deploy on GitHub pages.
 How to be deployed on GitHub pages
